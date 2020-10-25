@@ -1,0 +1,318 @@
+body{
+	background-image: linear-gradient(#5FC7B9, white, #5FC7B9, white);
+	color: #000;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.container{
+	margin: 0 auto;
+	/*height: 168px;*/
+	width: 1000px;	
+}
+header{
+	height: 200px;
+	background-image: url(img/bg-4.gif);
+	position: relative;
+	border-radius: 20px;
+}
+h1 img{
+	background-repeat: no-repeat;
+	height: 200px;
+	width: 300px;
+}
+.menu-opcoes{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+
+}
+.menu-opcoes ul{
+	width: 700px;
+	background-color: green;
+	padding: 10px 0px;
+}
+.menu-opcoes li{
+	padding: 0px 10px;
+	display: inline;
+	margin-left: 8px;
+}
+.menu-opcoes a{
+	padding: 5px;
+	text-decoration: none;
+	color: #ffffff;
+}
+.menu-opcoes a:hover{
+	background-color: white;
+	color: blue;
+}
+.busca{
+	color: white;
+	background-color: green;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-right: 10px;
+	height: 120px;
+	width: 290px;
+	float: left;
+	clear: right;
+	border-radius: 20px;
+}
+.busca h2,
+.busca form{
+	margin: 10px;
+}
+.busca button{
+	margin: 10px 0px;
+
+}
+.rapido{
+	color: white;
+	background-color: green;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-right: 10px;	
+	width: 290px;
+	float: left;
+	clear: left;
+	border: solid green;
+	border-radius: 20px;
+	margin-bottom: 10px;
+	padding-bottom: 100px;
+	
+}
+.rapido li{
+	background-color: #ffffff;
+	margin-bottom: 1px;
+	padding: 5px 10px;	
+}
+.rapido a{
+	color: black;
+	text-decoration: none;
+}
+.rapido li:hover{
+	background-color: green;
+}
+.rapido a:hover{
+	color: white;
+}
+.container{
+	position: relative;
+}
+
+.banner{
+	height: 740px;
+
+}
+.banner2 {
+	height: 950px;
+}
+
+.banner2 img,
+.banner img{
+	position: absolute;
+	margin-top: 10px;
+	width: 250px;
+	top: 0;
+	right: 0;
+	border-radius: 20px;
+}
+.espacador{
+	float: none;
+	background-color: black;
+	
+}
+.rodape{
+	border-radius: 30px;
+	background-image: url(img/bg-2.gif);
+	clear: both;
+	height: 90px;
+	
+}
+.rodape img{
+	height: 90px;
+	width: 150px;
+	padding-left: 10px;
+	
+
+}
+.container{
+	position: relative;
+}
+.texto,
+.cadastro,
+.contato{
+	background-image: linear-gradient(white, green, white);
+	float: left;
+	padding: 10px;
+}
+
+.conteudo{
+	display: table;
+}
+
+.figura1{
+	display: table-cell;
+	float: left;
+	margin-top: 15px;
+	margin-left: 15px
+}
+
+.texto1{
+	background-image: linear-gradient(white, green, white);
+	border-radius: 20px;
+	display: table-cell;
+	float: left;
+	height: 700px;
+	width: 400px;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
+.texto1 p{
+	padding: 10px;
+	text-align: justify;
+	line-height: 1.5
+}
+
+.titulo{
+	padding: 10px;
+	font-size: 30px;
+	color: black;
+}
+.cadastro{
+	border-radius: 20px;
+	margin: 10px 50px 10px 10px;
+}
+.cadastro p{
+	padding: 10px;
+}
+.cadastro button{
+	margin-left: 10px;
+}
+
+.active{
+	background-color: black;
+
+}
+::-webkit-input-placeholder  {
+  color: #bebcbc; 
+  font-style: italic;
+}
+ 
+select,
+input:-moz-placeholder,
+textarea:-moz-placeholder{
+  color: #bebcbc;
+  font-style: italic;
+}
+
+select,
+input {
+  outline: none;
+}
+select,
+input:not([type="radio"]){
+  width: 200px;
+  margin-top: 4px;
+  padding: 10px;    
+  border: 1px solid #b2b2b2;
+ 
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+ 
+  -webkit-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+  box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+ 
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.btEstilo{
+	width: 200px;
+  cursor: pointer;  
+  background: rgb(61, 157, 179);
+  padding: 8px 5px;
+  color: #fff;
+  font-size: 20px;  
+  border: 1px solid #fff;   
+  margin-bottom: 10px;  
+  text-shadow: 0 1px 1px #333;
+ 
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+ 
+  transition: all 0.2s linear;
+}
+.btEstilo:hover{
+	 background: #4ab3c6;
+}
+.midias{
+	background-color: #fffff0;
+	float: right;
+	width: 700px;
+	border-radius: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.midias h1{
+	width: 600px;
+	margin-top: 10px;
+	margin-left: 30px;
+	background-image: linear-gradient(blue, white, blue);
+	color: black;
+	font-style: italic;
+	border-radius: 20px;
+	text-align: center;
+}
+.fotos{	
+	padding: 10px;
+	display: inline-block;
+}
+.fotos img{
+	height: 320px;
+	width: 320px;
+}
+figcaption {
+width: 320px;
+color: #333; 
+font-style: italic;
+font-size: 10;
+}
+.texto{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	float: right;
+	height: 740px;
+	width: 670px;
+	border-radius: 20px;
+}
+.texto p{
+	padding: 10px;
+	text-align: justify;
+	line-height: 1.5
+}
+.contato{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	float: right;
+	height: 240px;
+	width: 670px;
+	border-radius: 20px;
+}
+#caixaContato{
+	height: 100px;
+	width: 500px;
+	text-align: justify;
+}
+.inscrito{
+	background-image: linear-gradient(white, blue, white);
+	height: 300px;
+	width: 100%;
+	border-radius: 20px;
+	margin: 10px 0px;
+	text-align: center;
+}
+.inscrito p{
+	padding-top: 30px;
+	font-size: 50px;
+	color: white;
+}
