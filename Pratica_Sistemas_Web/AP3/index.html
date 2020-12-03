@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <title>Quiz Game of Thrones</title>
+</head>
+
+<body>
+    <h1>QUIZ GAME OF THRONES</h1>
+    <div class="container">
+        <div id="start"><button class="start-btn" onClick= "beginQuiz()">Bem vindo ao QUIZ!</button>
+        <p>Teste seus conhecimentos sobre a série Game of Thrones!<br>Você conhece bem os personagens?<br>
+        Este quiz abordará acontecimentos de todas as temporadas.<br> Preparado para o desafio?</p></div>
+        <div id="quiz" style="display: none">
+            <h2 id="quizQuestion"></h2>
+            <div class = "img-div" id="quizImg"></div>
+            <div id="choices">
+                <button id="choiceA" onclick="check('A')"></button>
+                <button id="choiceB" onclick="check('B')"></button>
+                <button id="choiceC" onclick="check('C')"></button>
+                <button id="choiceD" onclick="check('D')"></button>
+            </div>
+            <div id="choiceResponse" style="display: none"></div>
+        </div>
+        <div id="scoreBlock" style="display: none"></div>
+        <div id="scoreMessage" style="display: none"></div>
+        <div><button id="quizAgain" class="quizRestart" style="display: none" onClick="restartQuiz()">Tente Novamente!</button></div>
+    </div>
+    <script src="js/quiz.js"></script>
+</body>
+
+</html>
