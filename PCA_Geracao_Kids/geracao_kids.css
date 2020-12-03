@@ -1,5 +1,5 @@
 body{
-	background-image: linear-gradient(#5FC7B9, white, #5FC7B9, white);
+	background-image: linear-gradient(white, #bcbcbc, white);
 	color: #000;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
@@ -27,7 +27,7 @@ h1 img{
 }
 .menu-opcoes ul{
 	width: 700px;
-	background-color: green;
+	background-color: #0080f0;
 	padding: 10px 0px;
 }
 .menu-opcoes li{
@@ -46,7 +46,7 @@ h1 img{
 }
 .busca{
 	color: white;
-	background-color: green;
+	background-color: #0080f0;
 	font-weight: bold;
 	margin-top: 10px;
 	margin-right: 10px;
@@ -66,14 +66,14 @@ h1 img{
 }
 .rapido{
 	color: white;
-	background-color: green;
+	background-color: #0080f0;
 	font-weight: bold;
 	margin-top: 10px;
 	margin-right: 10px;	
 	width: 290px;
 	float: left;
 	clear: left;
-	border: solid green;
+	border: #0080f0;
 	border-radius: 20px;
 	margin-bottom: 10px;
 	padding-bottom: 100px;
@@ -89,7 +89,7 @@ h1 img{
 	text-decoration: none;
 }
 .rapido li:hover{
-	background-color: green;
+	background-color: blue;
 }
 .rapido a:hover{
 	color: white;
@@ -121,6 +121,7 @@ h1 img{
 	
 }
 .rodape{
+	margin-top: 20px;
 	border-radius: 30px;
 	background-image: url(img/bg-2.gif);
 	clear: both;
@@ -128,6 +129,7 @@ h1 img{
 	
 }
 .rodape img{
+
 	height: 90px;
 	width: 150px;
 	padding-left: 10px;
@@ -140,7 +142,7 @@ h1 img{
 .texto,
 .cadastro,
 .contato{
-	background-image: linear-gradient(white, green, white);
+	background-image: linear-gradient(white, #619cd2, white);
 	float: left;
 	padding: 10px;
 }
@@ -152,12 +154,33 @@ h1 img{
 .figura1{
 	display: table-cell;
 	float: left;
-	margin-top: 15px;
+	margin-top: 25px;
 	margin-left: 15px
 }
 
+.destaque h2{
+	margin-top: 10px;
+	font-size: 20px;
+    color: floralwhite;
+    background-color: #0080f0;
+    text-align: center; 
+    width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.video{
+	margin-top: 10px;
+	height: 250px;
+	width: 380px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+
 .texto1{
-	background-image: linear-gradient(white, green, white);
+	background-image: linear-gradient(white, #619cd2, white);
 	border-radius: 20px;
 	display: table-cell;
 	float: left;
@@ -167,10 +190,41 @@ h1 img{
 	margin-left: 30px;
 }
 
+.texto1_1{
+	background-image: linear-gradient(white, #619cd2, white);
+	border-radius: 20px;
+	display: table-cell;
+	float: left;
+	height: 200px;
+	width: 380px;
+	margin-top: 20px;
+	margin-left: 30px;
+	text-align: justify;
+	padding: 10px
+}
+
+.texto1_2{
+	background-image: linear-gradient(white, #619cd2, white);
+	border-radius: 20px;
+	display: table-cell;
+	float: left;
+	height: 670px;
+	width: 480px;
+	margin-top: 20px;
+	margin-left: 30px;
+	text-align: justify;
+	line-height: 1.15
+	padding: 10px
+}
+
 .texto1 p{
 	padding: 10px;
 	text-align: justify;
 	line-height: 1.5
+}
+
+.texto1_2 p{
+	padding: 10px;
 }
 
 .titulo{
@@ -281,7 +335,7 @@ font-size: 10;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	float: right;
-	height: 740px;
+	height: 630px;
 	width: 670px;
 	border-radius: 20px;
 }
